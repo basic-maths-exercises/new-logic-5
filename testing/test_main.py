@@ -17,4 +17,4 @@ class UnitTests(unittest.TestCase) :
 
     def test_nmtfive(self) :
        xv = np.loadtxt("mydata.dat")
-       assert( vc.check_vars( "nmtfive", sum(xv>5) ) )
+       assert( vc.check_vars( "nmefive", sum(xv>=5) ) )

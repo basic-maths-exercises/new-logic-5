@@ -2,9 +2,9 @@
 
 I have loaded the data in the file `mydata.dat` into the NumPy array called `xvals` by using the command:
 
-````
+```python
 xvals = np.loadtxt("mydata.dat")
-````
+```
 
 one final time.  To complete this exercise you need to use what you have learned in previous exercises __to set the variables `nlefive` and `nmefive` equal to the number of elements in `xvals` that are less than or equal to five and the number of elements in `xvvals` that are greater than or equal to five__ respectively.
 
